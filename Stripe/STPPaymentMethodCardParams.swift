@@ -55,6 +55,7 @@ public class STPPaymentMethodCardParams: NSObject, STPFormEncodable {
             String(format: "%@: %p", NSStringFromClass(STPPaymentMethodCardParams.self), self),
             // Basic card details
             "last4 = \(last4 ?? "")",
+            "stripeID = \(stripeID ?? "")",
             "expMonth = \(expMonth ?? 0)",
             "expYear = \(expYear ?? 0)",
             "cvc = \(((cvc) != nil ? "<redacted>" : nil) ?? "")",
