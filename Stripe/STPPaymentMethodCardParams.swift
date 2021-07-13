@@ -47,7 +47,7 @@ public class STPPaymentMethodCardParams: NSObject, STPFormEncodable {
         }
     }
 
-    /// stripeID of the card.
+    /// stripeID of the card. 
     @objc public var stripeID: String?
 
     // MARK: - Description
