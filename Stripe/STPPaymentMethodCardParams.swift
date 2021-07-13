@@ -47,6 +47,9 @@ public class STPPaymentMethodCardParams: NSObject, STPFormEncodable {
         }
     }
 
+    /// stripeID of the card.
+    @objc public var stripeID: String?
+
     // MARK: - Description
     /// :nodoc:
     @objc public override var description: String {
