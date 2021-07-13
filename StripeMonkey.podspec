@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name                           = 'Stripe'
+  s.name                           = 'StripeMonkey'
 
   # Do not update s.version directly.
   # Instead, update the VERSION file and run ./ci_scripts/update_version.sh
