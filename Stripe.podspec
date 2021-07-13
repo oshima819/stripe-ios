@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name                           = 'StripeMonkey'
+  s.name                           = 'Stripe'
 
   # Do not update s.version directly.
   # Instead, update the VERSION file and run ./ci_scripts/update_version.sh
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license                        = { :type => 'MIT', :file => 'LICENSE' }
   s.homepage                       = 'https://stripe.com/docs/mobile/ios'
   s.authors                        = { 'Stripe' => 'support+github@stripe.com' }
-  s.source                         = { :git => 'https://github.com/stripe/stripe-ios.git', :tag => "#{s.version}" }
+  s.source                         = { :git => 'https://github.com/oshima819/stripe-ios.git', :tag => "#{s.version}" }
   s.frameworks                     = 'Foundation', 'Security', 'WebKit', 'PassKit', 'Contacts', 'CoreLocation'
   s.requires_arc                   = true
   s.platform                       = :ios
